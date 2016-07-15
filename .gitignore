@@ -7,3 +7,4 @@ src/main/webapp/upload/
 bin/createdb.bat
 *.iml
 .idea
+src/main/webapp/WEB-INF/lib/
