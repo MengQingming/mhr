@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Counter</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../lib/style.css">
+
+    <script src="../lib/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../lib/raphael.2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../justgage.js"></script>
+
+    <style>
+    .container {
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .gauge {
+        width: 400px;
+        height: 400px;
+    }
+
+   
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div id="gg1" class="gauge"></div>
+       
+    </div>
+
+    <script>
+    $(document).ready(function() {
+        var gg1 = new JustGage({
+            id: "gg1",
+            value: 72,
+			symbol: "%",
+			label: "目标步数\n100000步",
+            min: 0,
+			gaugeColor:"#D3D3D3",
+			title:"qilin",
+            max: 100,			
+            donut: true,
+            gaugeWidthScale: 0.6,
+            counter: true
+        });
+       
+    });
+    </script>
+</body>
+
+</html>

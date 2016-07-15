@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+						http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd"
+	default-lazy-init="true">
+
+	<description>Mina配置</description>
+
+	<!-- Mina -->
+	<bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+		<property name="customEditors">
+			<map>
+				<entry key="java.net.SocketAddress">
+					<bean class="org.apache.mina.integration.beans.InetSocketAddressEditor" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="executorFilter" class="org.apache.mina.filter.executor.ExecutorFilter" />
+	<bean id="mdcInjectionFilter" class="org.apache.mina.filter.logging.MdcInjectionFilter">
+		<constructor-arg value="remoteAddress" />
+	</bean>
+
+	<bean id="smsMessageEncoder" class="com.sohealth.util.SmsMessageEncoder">
+		<constructor-arg type="java.nio.charset.Charset">
+			<value>GBK</value>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="smsMessageDecoder" class="com.sohealth.util.SmsMessageDecoder">
+		<constructor-arg type="java.nio.charset.Charset">
+			<value>GBK</value>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="smsMessageCodecFactory" class="com.sohealth.util.SmsMessageCodecFactory">
+		<constructor-arg index="0" ref="smsMessageDecoder"/>
+		<constructor-arg index="1" ref="smsMessageEncoder"/>
+	</bean>
+	
+	<bean id="codecFilter" class="org.apache.mina.filter.codec.ProtocolCodecFilter">
+		<constructor-arg ref="smsMessageCodecFactory"/>
+	</bean>
+	
+	<bean id="loggingFilter" class="org.apache.mina.filter.logging.LoggingFilter" />
+	<bean id="clientFilterChainBuilder"
+		class="org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder">
+		<property name="filters">
+			<map>
+				<entry key="executor" value-ref="executorFilter" />
+				<entry key="mdcInjectionFilter" value-ref="mdcInjectionFilter" />
+				<!-- 编码解码的过滤器-->
+				<entry key="codecFilter" value-ref="codecFilter" />
+				<entry key="loggingFilter" value-ref="loggingFilter" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="smsClientHandler" class="com.sohealth.service.SmsClientHandler">
+		<property name="smsLogService" ref="smsLogService"></property>
+	</bean>
+
+	<!-- 客户端的对象，此对象中注入了过滤器的对象，包含的过滤对象有，解码，和编码的过滤器 -->
+	<bean id="nioSocketConnector" class="org.apache.mina.transport.socket.nio.NioSocketConnector">
+		<property name="connectTimeout" value="8000" />
+		<property name="connectTimeoutMillis" value="8000" />
+		<!-- 对应上面的过滤器对象的集合,主要包括编码和解码的过滤器-->
+		<property name="filterChainBuilder" ref="clientFilterChainBuilder" />
+		<constructor-arg index="0" value="6" />
+		<property name="handler" ref="smsClientHandler" />
+	</bean>
+	
+	<bean id="smsClientSocket" class="com.sohealth.service.impl.SmsClientSocket"
+		init-method="connect" destroy-method="dispose">
+		<property name="connector" ref="nioSocketConnector" />
+		<constructor-arg index="0" value="${mina.server.ip}" />
+		<constructor-arg index="1" value="${mina.server.port}" />
+		<constructor-arg index="2" value="${mina.local.ip}" />
+		<constructor-arg index="3" value="${mina.local.port}" />
+	</bean>
+	
+</beans>

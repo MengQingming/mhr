@@ -1,0 +1,37 @@
+body {
+	font-family: "宋体", "微软雅黑", Arial, Helvetica, sans-serif;
+	margin: 0px;
+	font-size: 12px;
+	background-color: #f6f6f6;
+}
+
+ul,li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}  /* 未访问的链接 */
+a:visited {
+	color: #000;
+	text-decoration: none;
+}  /* 已访问的链接 */
+a:hover {
+	color: #000;
+	text-decoration: none;
+}  /* 当有鼠标悬停在链接上 */
+a:active {
+	color: #000;
+}  /* 被选择的链接 */
+.button {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #FFF;
+}

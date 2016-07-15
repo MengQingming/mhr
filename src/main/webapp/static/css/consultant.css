@@ -1,0 +1,94 @@
+/*顾问页面的css*/
+.biaot{
+	font-family:"微软雅黑";
+	font-size:30px;
+	*margin:10px !important;
+	margin:20px;
+	}
+ .biaotou ul{
+	width:943px;
+	height:30px;
+	background-color:#ececec;
+	}
+ .biaotou ul li{
+	float:left;
+	font-family:"微软雅黑";
+	font-size:13px;
+	color:#616161;
+	margin-top:3px;
+	display:block;
+	padding:2px 15px;
+	*padding:4px 15px;
+	}
+.consultant_bg{
+	line-height:20px;
+	text-align:center;
+	display:block;
+	padding:3px 15px;
+	}
+.consultant_bg a:link {color: #616161;text-decoration: none;padding:3px 15px;}      /* 未访问的链接 */
+.consultant_bg a:visited {color: #616161;;text-decoration: none; padding:3px 15px;} 
+.consultant_bg a:hover {color: #FFF;text-decoration: none; background:#5b5b5b; padding:3px 15px;}     /* 当有鼠标悬停在链接上 */
+.consultant_bg a:active {color: #FFF;text-decoration: none; padding:3px 15px;}   /* 被选择的链接 */
+
+.doctor_k{
+	height:185px;
+	padding: 15px 15px;
+	border-bottom: 1px solid #EAEAEA;
+	}
+.doctor_left{
+	width: 330px;
+	height: 185px;
+	float:left;
+	}
+.doctor_right{
+	height:185px;
+	width: 530px;
+	padding-left:45px;
+	float:left;
+	}
+.Introduction{
+	height:125px;
+	width:335px;
+	}
+.Introduction .img{
+	float:left;
+	width:120px;
+	height:120px;
+	border: 2px solid #ddd;
+	overflow:hidden;
+	}
+.doctor_left span{
+	font-family:"微软雅黑";
+	font-size:14px;
+	line-height: 25px;
+	color:#575757;
+	margin-left:10px;
+	}
+.doctor_left .fenggex{
+	width:335px;
+	height:20px;
+	border-bottom:1px solid #d5d5d5;
+	clear:both;
+	}
+.doctor_left .button{
+	height:29px;
+	width:100px;
+	border:1px solid #ff9501;
+	background:url(../images/button-orange27.png) repeat-x;
+	border-radius:5px;
+	}
+.doctor_right span{
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#575757;
+	}
+.doctor_right p{
+	line-height:20px;
+	margin-top:8px;
+	color:#575757;
+	font-family:"微软雅黑";
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height:162px;
+	}

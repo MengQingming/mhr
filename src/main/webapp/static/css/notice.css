@@ -1,0 +1,12 @@
+
+/* Notice */
+.noticeBox{width:850px; height:600px; background:#FFF; font-family:"微软雅黑"}
+.noticeTitleBox{height:30px; background:#ececec}
+.noticeTitleBox .noticeTitle{width:50px; background:#dd3f3e; color:#FFF; font-size:16px; line-height:30px; margin-left:30px; padding-left:10px}
+
+.noticeSelect select{width:795px; height:40px; margin-top: 20px; margin-left:30px; border-radius:3px; border:1px solid #d4d4d4; font-size:21px; font-family:"微软雅黑"; line-height:50px}
+
+
+.noticeContentBox{width: 790px;  height: 500px; margin: 0 0 0 30px;}
+.noticeContentBox .noticeContent{width: 790px;  height: 500px; display: none;overflow-x:hidden;overflow:auto;}
+

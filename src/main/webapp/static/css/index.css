@@ -1,0 +1,357 @@
+﻿/*以下是首页内容（上部分）的css*/
+.content{
+	margin-top:	15px;
+	}
+.content_top{
+	width:1003px;
+	overflow:hidden;zoom:1;
+	padding-top:20px;
+
+	}
+.huodong{
+	float:left;
+	height:515px;
+	margin-left:30px;
+	width:270px;
+	}
+.huodong_intro {
+	height: 160px;
+	padding-bottom:20px;
+	overflow:hidden;
+	}
+.tit{
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#FFF;
+	height:31px;
+	line-height:31px;
+	background-color:#8eac00;
+	width:80px;
+	padding:0 30px 0 10px;
+	margin-bottom:2px !important;
+	margin-bottom:5px;
+	}
+.tit a{color:#FFF;}
+.huodong span{
+	font-family:"微软雅黑";
+	font-size:24px;
+	}
+.huodong .blue{
+	color:#016da0;
+	}
+.huodong p{
+	line-height:22px;
+	margin:0px;
+	margin-top:22px;
+	}
+.huodong .chakan{
+	margin:0px;
+	margin-top:20px;
+	}
+.map{
+	width:242px;
+	height:118px !important;
+	height:120px;
+	border:2px dashed #bebebe;
+	overflow:hidden;
+	text-align:centre;
+	}
+.map img{
+	width:242px;
+	height:118px;
+	}
+	
+.huodong .button{
+	height:25px;
+	width:75px;
+	border:1px solid #2b6700;
+	background-color:#278e00;
+	margin-left:10px;
+	border-radius:3px;
+	color:#FFF;
+	}
+.xuxianshu{
+	float:left;
+	background-image:url(../images/xuxian-shu.png);
+	height:515px;
+	width:47px;
+	}
+.kehu{
+	float:left;
+	height:515px;
+	margin-left:20px;
+	width:270px;
+	}
+.kehu .tit{
+	background-color:#00c0ff;
+	width:100px;
+	}
+.kehu .green{
+	font-family:"微软雅黑";
+	font-size:24px;
+	color:#5aaa04;
+	}
+.kehu span{
+	font-family:"微软雅黑";
+	font-size:18px;
+	margin:10px 0 0 0;
+	}
+.kehulogok{
+	height:200px;
+	margin:10px 0 0 0 !important;
+	margin:20px 0 0 0;
+	padding:10px;
+	}
+.kehulogok img{
+	margin:5px 10px;
+	float:left;
+	width:54px;
+	height:54px;
+	overflow:hidden;
+	}
+.kehu p{
+	line-height:22px;
+	}
+.kehu .huanhu{
+	width:247px;
+	height:92px;
+	background-image:url(../images/shouhu.png);
+	float:right;
+	*margin:-25px -10px 0 0 !important;
+	margin:-10px -10px 0 0;
+	}
+.weibo{
+	float:left;
+	height:515px;
+	margin-left:20px;
+	width:270px;
+	position:relative;
+	}
+.weibo .tit{
+	background-color:#e9c63a;
+	width:230px;
+	}
+.weibo .weixin{
+	width:72px;
+	height:72px;
+	background:url(../images/weixin.png) no-repeat;
+	float:right;
+	position:absolute;
+	top:-20px;
+	right:15px;
+	}
+.weibok{
+	width:266px;
+	*height:440px !important;
+	height:440px;
+	border:2px solid #bebebe; 
+	margin-top:20px;
+	overflow:auto;
+	}
+/*以上是首页内容（上部分）的css*/
+/*以下是首页内容（中部分）的css*/
+.content_middle{
+	clear:borh;
+	padding-top:55px;
+	overflow:hidden;zoom:1;
+	}
+.xuxian-heng{
+	width:969px;
+	height:38px;
+	margin-left:0px;
+	background-image:url(../images/xuxian-heng.png);
+	}
+.content_middle .tit{
+	background-color:#6e80f0;
+	margin-left:30px;
+	}
+.content_middle .guwenk{
+	float:left;
+	width:300px;
+	margin-left:30px;
+	}
+.content_middle .orange{
+	font-family:"微软雅黑";
+	font-size:24px;
+	color:#ecb200;
+	}
+.content_middle .tit2{
+	font-family:"微软雅黑";
+	font-size:18px;
+	}
+.content_middle p{
+	line-height:22px;
+	}
+.content_middle .button{
+	height:25px;
+	border:1px solid #dc8100;
+	background-color:#fbb900;
+	margin-left:10px;
+	float:right;
+	border-radius:3px;
+	}
+.guwenxinxi{
+	height:74px;
+	}
+.touxiangk{
+	width:66px;
+	height:66px;
+	border:2px solid #d6d6d6;
+	border-radius:2px;
+	float:left;
+	margin:0 10px 0 0;
+	overflow:hidden;
+	}
+.touxiangk img{
+	width:66px;
+	height:66px;
+	}
+.guwenxinxi span{
+	line-height:22px;
+	}
+/*以上是首页内容（中部分）的css*/
+/*以下是首页内容（下部分）的css*/
+.content_bottom{
+	clear:borh;
+	padding-top:40px;
+	overflow:hidden;zoom:1;
+	}
+.xuxian{
+	width:969px;
+	height:10px;
+	margin-left:10px;
+	background-image:url(../images/xuxian.png);
+	}
+.left{
+	float:left;
+	width:300px;
+	margin:18px 0 0 15px !imprtant;
+	margin:35px 0 0 30px;
+	height:410px;
+	-moz-box-shadow: 1px 1px 1px #cdcdcd;
+	-webkit-box-shadow: 1px 1px 1px #000;
+	box-shadow: 1px 1px 1px #cdcdcd;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#cdcdcd')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cdcdcd');
+	background-color:#FFF;
+	border-radius:5px;
+	}
+.left .jinakang{
+	width:292px;
+	height:43px;
+	background-image:url(../images/jiank.png);
+	margin:5px 4px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	line-height:39px;
+	}
+.left .jinakang img{
+	float:left;
+	}
+.jinakang span{
+	margin:0 20px 0 20px;
+	}
+.jinakang span a:link{color:#000000;text-decoration: none;}
+.jinakang span a:visited{color:#000000;text-decoration: none;}
+.jinakang span a:hover{color:#000000;text-decoration: none;}
+.jinakang span a:active{color:#000000;text-decoration: none;}
+.shucai{
+	margin:10px 0 0 4px;
+	}
+.jiankangtit{
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:26px;
+	margin-left:10px;
+	}
+.content_bottom a:link {color: #425c9e;text-decoration: underline;}    
+.content_bottom a:visited {color: #425c9e;text-decoration: underline;}  
+.content_bottom a:hover {color: #425c9e;text-decoration: underline;}    
+.content_bottom a:active {color: #425c9e;}  
+.left ul{
+	margin:10px 10px 0 25px;
+	}
+.left ul li{
+	list-style-type:none;
+	margin:10px 0;
+	}
+.zhaiyao{
+	margin:0 10px;
+	line-height:25px;
+	font-family:"微软雅黑"
+	width:220px;
+	height:130px;
+	font-size:13px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	border-bottom:1px dashed #000;
+	list-style-type:none;
+	overflow:hidden;
+	}
+.more{
+	float:right;
+	margin-right:20px;
+	}
+.right{
+	float:left;
+	width:620px;
+	margin:35px 0 0 30px;
+	height:410px;
+	-moz-box-shadow: 1px 1px 1px #cdcdcd;
+	-webkit-box-shadow: 1px 1px 1px #000;
+	box-shadow: 1px 1px 1px #cdcdcd;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#cdcdcd')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cdcdcd');
+	background-color:#FFF;
+	border-radius:5px;
+	}
+.right .shouhu{
+	width:600px;
+	height:39px;
+	border-radius:5px;
+	background-color:#eeeeee;
+	margin:5px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	line-height:39px;
+	padding-left:10px;
+	}
+.right .ranking{
+	width:140px;
+	height:39px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	line-height:39px;
+	float:left;
+	cursor:pointer;
+	margin-right:10px;
+	text-align:center;
+	}
+
+.shouhuhengk{
+	margin:35px 15px ;	
+	height:70px;
+	}
+.shouhuk{
+	height:70px;
+	width:192px;
+	float:left;
+	margin-right:4px;
+	}
+.shouhuk .show{
+	padding:0px;
+	margin:0px;
+	font-size:14px;
+	display:block;
+	line-height:24px;
+}
+.red{
+	font-size: 13px;
+	font-family:"微软雅黑";
+	color:#f70000;
+	}
+/*以上是首页内容（下部分）的css*/

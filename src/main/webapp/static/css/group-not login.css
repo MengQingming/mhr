@@ -1,0 +1,176 @@
+﻿.activities_tit ul{
+	float:left;
+	font-family:"微软雅黑";
+	line-height:30px;
+	}
+.activities_tit ul li{
+	margin-left:45px;
+	float:left;
+	}
+.activities_tit ul li a:link {color: #000000;}     
+.activities_tit ul li a:visited {color:#000000;} 
+.activities_tit ul li a:hover {color: #8eac00;}    /* 当有鼠标悬停在链接上 */
+.activities_tit ul li a:active {color: #8eac00;}/* 未访问的链接 */
+.group-act{
+	padding:15px 15px 20px 15px;
+	height:100xp;
+	overflow:hidden;zoom:1;
+	}
+.group-act1{
+	width:445px;
+	height:160px;
+	float:left;
+	color:#373737;
+	font-family:"微软雅黑";
+	}
+.group-logo{
+	width:136px;
+	height:176px;
+	background-color:#d3e555;
+	text-align:center;
+	padding:2px;
+	float:left;
+	}
+.group-act1 .img{
+	width:136px;
+	height:130px;
+	background-color:#FFF;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	margin-right:5px;
+	overflow:hidden;
+	}
+.group-act1 .img img{
+	width:136px;
+	height:130px;
+	}
+.group-act1 span{
+	line-height:30px;
+	}
+.group-tit{
+	height:55px;
+	width:290px;
+	float:right;
+	background:#bcce51;
+	font-size:16px;
+	padding:5px;
+	line-height:45px;
+	margin-bottom:5px;
+	}
+.group-tit3{
+	background:#d3e555;
+	width:100px;
+	height:110px;
+	float:right;
+	margin-left:5px;
+	text-align:center;
+	}
+.group-tit2{
+	background:#e2ee90;
+	width:195px;
+	height:110px;
+	float:left;
+	margin-left:5px;
+	text-align:center;
+	}
+.group-tit2 p{
+	margin-top:10px;
+	line-height:18px;
+	}
+.group-tit3 p{
+	margin-top:10px;
+	}
+.group-tit3 span{
+	font-size:30px;
+	line-height:55px;
+	}
+.group-page{
+	width:943px;
+	height:15px;
+	padding:15px 15px 0 15px;
+	text-align:center;
+	}
+.groups{
+	padding:0 11px;
+	margin:15px 0;
+	overflow:hidden;zoom:1;
+	}
+.groups1{
+	width:172px;
+	border:1px solid #ebebeb;
+	background:#f5f5f5;
+	margin:0 5px;
+	float:left;
+	text-align:center;
+	height:232px;
+	}
+.groups1 .img{
+	width:172px;
+	height:172px;
+	background-color:#FFF;
+	text-align:center;
+	overflow:hidden;
+	vertical-align:middle;
+	}
+.groups1 span{
+	line-height:30px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	height:60px;
+	}
+.group_services{
+	padding:30px 30px 60px 30px;
+	font-family:"微软雅黑";
+	overflow:hidden;zoom:1;
+	}
+.group_services dl dt{
+	font-size:16px;
+	color:#6ca021;
+	}
+.group_services dl dd{
+	margin:0px;
+	padding:0px;
+	margin:20px;
+	line-height:22px;
+	}
+.group_services .group_services_intro{
+	width:700px;
+	padding-left:80px;
+	font-family:"微软雅黑"
+	}
+.group_services dl dd ul li{
+	float:left;
+	margin:0 13px;
+	}
+.group_services dl dd ul .no{
+	font-size:26px;
+	color:#a5a5a5;
+	}
+.group_services dl dd ul .group_services_name{
+	text-align:center;
+	font-size:13px;
+	color:#ababab;
+	padding-left:20px;
+	}
+.group_services dl dd ul .line{
+	width:1px;
+	border-right:1px dashed #979797;
+	height:90px;
+	margin-top:70px;
+	}
+.group_services .apply_service{
+	margin-left:90px;
+	}
+.group_services .apply_service li{
+	margin:0px;
+	}
+.group_services .apply_service span{
+	color:#05adda;
+	font-size:20px;
+	margin-left:40px;
+	}
+.group-logo span{
+	line-height:20px;
+	}

@@ -1,0 +1,9 @@
+logs/
+target/
+src/main/webapp/upload/
+.settings/
+.project
+.classpath
+bin/createdb.bat
+*.iml
+.idea

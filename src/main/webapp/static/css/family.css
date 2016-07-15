@@ -1,0 +1,430 @@
+body{
+	font-family: "微软雅黑","Arial", "Helvetica", "sans-serif";
+	margin:0px;
+	font-size:12px;
+	}
+ul,li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	}
+
+.wrapper{
+	width:1280px;
+	height:720px;
+	margin:0 auto;
+	background:url(../images/family/background.jpg) no-repeat;
+	}
+.header{
+	padding:20px 0 0 290px;
+	}
+.header li{
+	float:left; 
+	}
+.header .time{
+	float:right;
+	color:#77b944;
+	font-size:20px;
+	padding-right:200px;
+	padding-top:20px;
+	}
+/*以下是通用的css*/
+.left{
+	width:245px;
+	position:relative;
+	float:left;
+	padding:30px 0 0 0;
+	}
+.family_sign{
+	font-size:24px;
+	color:#5d5d5d;
+	margin-left:50px;
+	border:0px;
+	}
+.left .black{
+	background:#000;
+	height:720px;
+	width:245px;
+	opacity:0.3;
+	filter:Alpha(Opacity='30'); /*实现了半透明效果*/
+	position:absolute;
+	top:0px;
+	left:0px;
+	}
+
+.userInfo .personkelder{
+	color:#6fbf37;
+	font-size:20px;
+}
+.person{
+	position:absolute;
+	width:245px;
+	height: 640px;
+	}
+.person .personk{
+	height:64px;
+	width:180px;
+	background:#FFF;
+	border-radius:5px;
+	padding:10px;
+	margin:15px auto;
+	}
+.personk img{
+	height:60px;
+	width:60px;
+	margin-right:10px;
+	border:0px;
+	}
+.personk .name{
+	font-size:16px;
+	}
+.personk .personkelder{
+	color:#6fbf37;
+	font-size:16px;
+	}
+.persoankaddress{
+	font-size:16px;
+}
+.leftline{
+	height:720px;
+	background:#FFF;
+	width:3px;
+	float:left;
+	}
+.bottom{
+	position:absolute;
+	width:1000px;
+	top:595px;
+	left:50%;
+	margin-left:-380px;
+	height:95px;
+	}
+.menuBox	.blue{
+	height:95px;
+	width:200px;
+	text-align:right;
+	line-height:95px;
+	color:#FFF;
+	font-size:24px;
+	float:left;
+	margin:0 40px;
+	padding-right:30px;
+	}
+
+/*以上是通用的css*/
+/*以下是家庭成员的css*/
+.nosign{
+	padding:10px 0 0 123px;
+	clear:both;
+	font-size:24px;
+	color:#5d5d5d;
+}
+.cardbox{
+	height:144px;
+	width:436px;
+	background:url(../images/cardbox.png) no-repeat;
+	padding:28px 0 0 30px;
+	margin:20px 0 0 114px;
+	float:left;
+}
+.cardbox img{
+	width:88px;
+	height:88px;
+	float:left;
+	margin-right:15px;
+	  }
+.cardbox .name{
+	font-size:20px;
+	float:left;
+	}
+.cardbox .name .tit{
+	font-size:24px;
+	color:#6fbf37;
+	 }
+.cardbox .health{
+	float:right;
+	padding:0 50px;
+	color:#6fbf37;
+	font-size:16px;
+	margin-top:-15px;
+	text-align:center;
+	}
+.cardbox .health .data{
+	font-size:24px;
+	color:#FFF;
+	
+}
+
+/*以上是家庭成员的css*/
+/*以下是血压通的css*/
+.report{
+	height:400px;
+	width:480px;
+	margin:80px 0 0 0;
+	float:left;
+	}
+.report .transparent{
+	height:400px;
+	width:480px;
+	background:#FFF;
+	opacity:0.8;
+	filter:Alpha(Opacity='80'); /*实现了半透明效果*/
+	border-radius:5px;
+	float:left;
+	position:absolute;
+	}
+.report .chart{
+	height:400px;
+	width:480px;
+	position:absolute;
+	}
+.report .chart .chart_tit{
+	height:28px;
+	width:180px;
+	font-size:20px;
+	padding-left:20px;
+	color:#FFF;
+	margin-top:15px;
+	}
+.report .chart .chartk{
+	height:340px;
+	width: 480px;
+	}
+/*以上是血压通的css*/
+
+/*以下是健体助手的css*/
+.pedometer{
+	height:230px;
+	width:485px;
+	margin:10px 0 0 0px;
+	float:left;
+	}
+.pedometer .transparent{
+	height:230px;
+	width:485px;
+	background:#FFF;
+	opacity:0.8;
+	filter:Alpha(Opacity='80'); /*实现了半透明效果*/
+	border-radius:5px;
+	position:absolute;
+	}
+.pedometer .chart{
+	position:absolute;
+	height:230px;
+	width:485px;
+	}
+.pedometer .chart .chart_tit{
+	height:28px;
+	width:180px;
+	font-size:20px;
+	padding-left:20px;
+	color:#FFF;
+	margin-top:10px;
+	}
+.pedometer .chart .chartk{
+	height:180px;
+	width:465px;
+	margin:0 10px;
+	} 
+/*以上是健体助手的css*/
+/*以下是健康概况的css*/
+.healthk{
+	height:480px;
+	width:320px;
+	float:left;
+	margin-right:10px;
+	}
+.healthk .transparent{
+	height:480px;
+	width:320px;
+	background:#FFF;
+	opacity:0.8;
+	filter:Alpha(Opacity='80'); /*实现了半透明效果*/
+	border-radius:5px;
+	position:absolute;
+	}
+.health_content{
+	float:left;
+	height:20px;
+	width:980px;
+	margin-top:20px;
+	margin-left: 15px;
+}
+.healthk  .content{
+	height:480px;
+	width:320px;
+	position:absolute;
+	}
+.content .tit{
+	font-size:24px;
+	margin:0px;
+	padding:0px;
+	padding:15px;
+	}
+.content .BMI{
+	height:55px;
+	width:310px;
+	background:url(../images/family/bmi.png) no-repeat;
+	margin-left:5px;
+	padding:40px 5px;
+	}
+.BMI li{
+	float:left;
+	padding:0 2px;
+	text-align:center;
+	}
+.BMI .equation{
+	font-size:14px;
+	color:#235d00;
+	}
+.BMI .result{
+	color:#FFF;
+	font-size:24px;
+	}
+.BMI .data{
+	color:#575757;
+	font-size:12px;
+	border-right:1px solid #77b944;
+	}
+.BMI .data span{
+	font-size:20px;
+	color:#000000;
+	}
+.value{
+	padding-top:20px;
+	padding-left:5px;
+	}
+.value .biaoji{
+	margin-left:100px;
+	}
+.notice .sanjiao{
+	padding:40px 0 0 50px;
+	display:block;
+	}
+.notice .noticek{
+	width:250px;
+	background:#FFF;
+	padding:15px;
+	border-radius:5px;
+	margin-left:20px;
+	font-size:12px;
+	}
+.notice .noticek .green{
+	font-size:20px;
+	color:#71bd43;
+	}
+.notice .noticek .red{
+	font-size:20px;
+	color:#e20000;
+	}
+.notice .noticek .black{
+	font-size:12px;
+	color:#000000;
+	}
+.distance {
+	padding:20px 0;
+	}
+.distance li{
+	padding:0 10px;
+	font-size:12px;
+	color:#505050;
+	float:left;
+	}
+.distance img{
+	float:left;
+	}
+.distance li span{
+	font-size:20px;
+	color:#000000;
+	}
+.distance .calorie{
+	padding:20px 100px;
+	}
+.percent{
+	clear:both;
+	padding-top:0px;
+	padding-left:5px;
+	}
+.percent .number{
+	height:30px;
+	width:55px;
+	padding-bottom:5px;
+	margin-left:185px;
+	background:url(../images/family/number.png) no-repeat;
+	font-size:17px;
+	color:#FFF;
+	text-align:center;
+	}
+.gray{
+	height:15px;
+	width:307px;
+	background:#9b9b9b;
+	}
+.gray .green{
+	height:15px;
+	width:210px;
+	background:#66b60f;
+	float:left;
+	}
+.gray img{
+	margin:-2px 0 0 -5px;
+	}
+.date{
+	margin-top:10px;
+	font-size:12px;
+	}
+.date li{
+	float:left;
+	}
+.date .gon{
+	font-size:20px;
+	float:right;
+	color:#71bd43;
+	line-height:20px;
+	margin-right:10px;
+	}
+.content .bp{
+	background:url(../images/family/BP.png) no-repeat;
+	height:250px;
+	width:300px;
+	margin-left:15px;
+	}
+.bpdata{
+	color:#ffbf00;
+	float:left;
+	text-align:center;
+	font-size:18px;
+	font-weight:700;
+	padding:30px 0 0 15px;
+	line-height:25px;
+	}
+.date .recent{
+	color:#FFF;
+	display:block;
+	background:#ffbf00;
+	padding:2px 5px;
+	border-radius:2px;
+	}
+
+.bpdata .big{
+	font-size:24px;
+	font-weight:400;
+	color:#FFF;
+	}
+.bpdata .small{
+	font-size:12px;
+	font-weight:400;
+	color:#FFF;
+	}
+.bp .total{
+	float:left;
+	font-size:14px;
+	color:#575757;
+	padding:20px 0 0 15px;
+	
+	}
+.bp .total span{
+	font-size:24px;
+	color:#66b60f;
+	}
+/*以上是健康概况的css*/

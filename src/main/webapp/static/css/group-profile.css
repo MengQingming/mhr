@@ -1,0 +1,33 @@
+.advertising_map{
+	height:330px;
+	width:943px;
+	}
+.activity_newsk2 .group-profile-tit{
+	height:30px;
+	background:#ececec;
+	line-height:30px;
+	}
+.group-profile-tit li{
+	padding:0 10px;
+	font-size:14px;
+	color:#3a3a3a;
+	}
+.group-profile-act{
+	text-align:center;
+	padding:10px 0 0 0;
+	font-size:14px;
+	}
+.group-profile-act img{
+	height:111px;
+	width:314px;
+	}
+.profile_content{
+	padding: 10px 30px;
+	font-family:"微软雅黑";
+	}
+.profile_content .profile_contenttit{
+	font-size:14px;
+	}
+.profile_content2{
+	line-height:20px;
+	}

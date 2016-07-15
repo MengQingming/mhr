@@ -1,0 +1,224 @@
+.gray_bj{
+	background:#f3f3f3;
+	border-radius:10px;
+	overflow:hidden;zoom:1;
+	padding:20px;
+	text-align:left;
+	}
+.BMI{
+	height:104px;
+	width:590px;
+	background:url(../images/personal/BMI-bj.png) no-repeat;
+	margin-left:5px;
+	padding:40px 0 0 20px;
+	text-align:center;
+	}
+.BMI li{
+	float:left;
+	border-right:2px solid #77b944;
+	padding:0 25px;
+	line-height:30px;
+	}
+.BMI li span input{
+	width: 50px;
+	border:0px;
+	text-align:center;
+	background-color:#e8eee2;
+	}
+.BMI .equation span{
+	font-size:24px;
+	color:#FFF;
+	}
+.BMI_bj{
+	height:450px;
+	width:620px;
+	background:#f5f5f5;
+	border-radius:15px;
+	margin:20px 0 0 0;
+	padding:20px;
+	}
+.BMI button{
+	height:28px;
+	width:85px;
+	border-radius:2px;
+	color:#FFF;
+	font-family:"΢���ź�";
+	cursor:pointer;
+	border:0px;
+	outline:none;
+	}
+.BMI .button1{
+	background:#03b3e6;
+	margin-bottom:5px;
+	}
+.BMI .button2{
+	background:#ffbf00;
+	}
+.gray{
+	height:13px;
+	width:630px;
+	background:#9b9b9b;
+	}
+.gray .green{
+	height:13px;
+	width:420px;
+	background:#66b60f;
+	float:left;
+	text-align:right;
+	font-size:10px;
+	color:#FFF;
+	line-height:13px;
+	padding-right:10px;
+	}
+.gray img{
+	float:left;
+	margin:-2px 0 0 -2px;
+	}	
+.value{
+	padding-top:20px;
+	margin-left:20px;
+	}
+.value .biaoji{
+	margin-left:20px;
+	}	
+
+.notice{
+	clear:both;
+	}
+	
+.notice .sanjiao{
+	padding:30px 0 0 50px;
+	border:0px;
+	}
+.notice .sanjiao img{
+	border:0px;
+	display:block;
+	}
+.notice .noticek{
+	background:#FFF;
+	padding:15px;
+	border-radius:5px;
+	margin-left:20px;
+	font-size:12px;
+	text-align:left;
+	}
+.notice .noticek .green{
+	font-size:24px;
+	color:#71bd43;
+	}
+.notice .noticek .red{
+	font-size:24px;
+	color:#e20000;
+	}
+
+.notice .noticek .black{
+	font-size:12px;
+	color:#000000;
+	}
+	
+	
+	
+.distance li{
+	float:left;
+	font-size:14px;
+	width:185px;
+	line-height:28px;
+	}
+.distance li img{
+	float:left;
+	margin-right:10px;
+	}
+.distance li span{
+	font-size:24px;
+	}	
+.distance .data{
+	width:60px;
+	float:right;
+	}
+.percent{
+	padding-top:20px;
+	clear:both;
+	}
+.percent .number{
+	height:33px;
+	width:60px;
+	background:url(../images/personal/number.png) no-repeat;
+	font-size:16px;
+	color:#FFF;
+	text-align:center;
+	line-height:30px;
+	margin-left:395px;
+	margin-bottom:5px;
+	}
+.date{
+	margin-top:5px;
+	font-size:12px;
+	}
+.date li{
+	float:left;
+	}
+.date .gon{
+	font-size:18px;
+	float:right;
+	color:#71bd43;
+	line-height:20px;
+	margin-right:10px;
+	}
+.text{
+	margin-top:20px;
+	text-align:left;
+	margin-left:20px;
+	}
+.text li{
+	float:left;
+	}
+.text .img{
+	border:2px solid #dcdcdc;
+	margin-right:10px;
+	}
+.text .message{
+	width:520px;
+	}
+.text .message .blue{
+	color:#04b4e9;
+	}
+.text .message .advise{
+	display:block;
+	margin-top:5px;
+	}
+.bp{
+	background:url(../images/personal/pressure.png) no-repeat;
+	height:166px;
+	width:550px;
+	margin-left:15px;
+	text-align:left;
+	float:left;
+	}
+.bpdata{
+	color:#FFF;
+	float:left;
+	text-align:center;
+	font-size:18px;
+	padding:30px 0 0 22px;
+	}
+.bpdata .small{
+	font-size:12px;
+	}
+.bpdata .big{
+	font-size:30px;
+	line-height:80px;
+	}
+.bp .total{
+	float:left;
+	font-size:14px;
+	color:#575757;
+	padding:20px 0 0 40px;
+	}
+.bp .total span{
+	font-size:24px;
+	color:#66b60f;
+	}
+.history{
+	float:right;
+	margin-top:90px;
+	}

@@ -1,0 +1,69 @@
+body{
+	font-family: "宋体","微软雅黑",Arial, Helvetica, sans-serif;
+	margin:0px;
+	font-size:12px;
+	background-color:#f6f6f6;
+	}
+.main{
+	width:1003px;
+	margin:0 auto;
+	padding-top:100px;
+	}
+
+.login_bj{
+	height:530px;
+	width:1003px;
+	background-image: url(../../images/login.png);
+	padding-left:130px;
+	padding-top:200px;
+	background-repeat:no-repeat;
+	height:530px;
+	}
+
+.login_form ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	list-style-position:outside;
+	width:550px;
+	font-size:14px;
+	}
+.login_form  li{
+	padding:5px;			
+	position:ralative;/*在这有什么功能，什么意思*/
+
+	}
+.login_form  input{
+	height:15px;
+	width:150px;
+	padding:5px 8px;
+	border-radius:3px;
+	border:1px solid #707070;
+	}
+.login_form label{
+	padding:5px 0;
+	width:70px;
+	float:left;
+	display:inline-block;
+	}
+.login_form button{
+	margin-left:70px;
+	border:1px solid #5d9b4d;
+	background-color:#60af00;
+	border-radius:3px;
+	font-family:"微软雅黑";
+	color:#FFF;
+	width:75px;
+	height:30px;
+	}
+.error{
+	font-size:12px;
+	}
+
+#yanzheng{
+	display:inline-block;
+	border:0px;
+	height:15px;
+	width:55px;
+	border-radius:0px;
+	}

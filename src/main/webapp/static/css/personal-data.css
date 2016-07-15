@@ -1,0 +1,95 @@
+.data_bj{
+	background:#f5f5f5;
+	border-radius:10px;
+	margin-top:20px;
+	padding:20px;
+	overflow:hidden;zoom:1;
+	margin-bottom:30px;
+	}
+.danxuan{
+	float:left;
+	color:#575757;
+	}
+.danxuan input{
+	margin:0 10px;
+	}
+.xialak{
+	float:right;
+	color:#575757;
+	}
+.xialak select{
+	margin:0 10px;
+	}
+.date_xianshi{
+	clear:both;
+	padding:20px 0;
+	text-align:center;
+	}
+.nextweek{
+	border:#cac261 1px solid;
+	background:#fff796;
+	padding:2px 5px;
+	margin-left:-45px;
+	line-height:20px;
+	}
+.date_qujian{
+	font-size:24px;
+	margin:10px;
+	}
+.baobiao_tit{
+	clear:both;
+	text-align:center;
+	font-size:14px;
+	color:#585858;
+	overflow:hidden;zoom:1;
+	margin-left:200px;
+	}
+.baobiao_tit .baobiao_tit1{
+	float:left;
+	margin:0 13px;
+	background:url(../images/data_bj2.png) no-repeat;
+	width:45px;
+	height:29px;
+	line-height:25px;
+	}
+.baobiao_tit .baobiao_tit1:link{color:#FFF; background:url(../images/data_bj.png);}
+.baobiao_tit .baobiao_tit1:visited{color:#FFF; background:url(../images/data_bj.png);}
+.baobiao_tit .baobiao_tit1:hover{color:#FFF; background:url(../images/data_bj.png);}
+.baobiao_tit .baobiao_tit1:active{color:#FFF; background:url(../images/data_bj.png);}
+
+.baobiao_zhushi{
+	float:right;
+	width:250px;
+	line-height:22px;
+	color:#575757;
+	margin-top:30px;
+	}
+.baobiao_zhushi img{
+	vertical-align:middle;
+	margin:0 10px;
+	}
+.baobiao_data{
+	clear:both;
+	width:629px;
+	height:310px;
+	padding-top:10px;
+	}
+.data_zongjie{
+	background:#FFF;
+	border-radius:5px;
+	padding:10px;
+	text-align:left;
+	margin:30px 0 10px 0;
+	color:#424242;
+	line-height:20px;
+	}
+.xialak input{
+	width:100px;
+	height:15px;
+	}
+#endDate{
+	margin:0px;
+	}
+#startDate {
+	margin:0px;
+	}

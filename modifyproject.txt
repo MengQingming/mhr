@@ -1,0 +1,78 @@
+检索 t_enterprise_user ，判断条件中不含有企业id，活动id均有问题。
+//==========================================================================================	
+	userbase.xml
+//**************************
+	1. /admin/department/updatePersonalDepartment.jsp   初始化 修改 个人所在部门 页面，
+	<select id="selectUserBaseByUserId" resultType="com.sohealth.vo.UserBaseVo" parameterType="java.lang.Long">
+		select tb.userid,tb.account,tb.nickname,tb.name,td.departmentid, td.departmentname 
+		from t_user_base tb, t_enterprise_user eu, t_department td
+		where tb.userid = eu.userid and eu.enterpriseid = td.enterpriseid(+) 
+		and eu.departmentid = td.departmentid(+) and tb.userid = #{userid,jdbcType=DECIMAL}
+	</select>
+	页面谁用了？
+
+	
+//==========================================================================================		
+	EmployeeMapper.xml 全部
+//**************************		
+		 1 用的页面： 查看集团关系：admin/userBase/selectEnterprise.jsp 2. departmentMemberList.jsp 3.集团成员一览 admin/employee/employeeList.jsp 4 删除 用户 admin/userBase/updateUser.jsp
+		<delete id="deleteByKey" parameterType="java.lang.Long" >  
+			delete from T_ENTERPRISE_USER
+			where USERID = #{userid, jdbcType=DECIMAL}
+		</delete>
+//**************************
+		1 admin/doctor/doctorForm.jsp 2. admin/doctor/doctorList.jsp 3. /admin/userBase/userDetail.jsp
+		4. admin/userBase/selectEnterprise.jsp 查看 集团关系 5. doctor/myDoctor.jsp 6. group/groupMyDepartmentRank.jsp 集团 排名
+		7. group/groupDepartmentDistanceRank.jsp 部门里程排名 8. group/groupDepartmentYesterday.jsp  集团 昨日排名
+		<select id="selectByUserid" resultMap="BaseResultMap" parameterType="java.lang.Long">
+			select * from T_ENTERPRISE_USER 
+			where USERID = #{userid, jdbcType=DECIMAL}
+		</select>
+//*************************
+		1.admin/department/updatePersonalDepartment.jsp 归属部门   绑定部门关系
+		<update id="updateDepartmentByUserid" parameterType="map">
+			update T_ENTERPRISE_USER set departmentid = ${departmentid} where userid = ${userid}
+		</update>
+//************************
+		1.admin/department/updatePersonalDepartment.jsp 归属部门 页面 ，解除 部门 关系 
+		<update id="cleanDepartmentByUserid" parameterType="java.lang.Long">
+			update T_ENTERPRISE_USER set departmentid = '' where userid = #{userid, jdbcType=DECIMAL}
+		</update>
+		
+		
+//---------------------------------------
+
+getEnterpriseid 方法的地方
+getActivity 方法
+
+group 方法 集团未开始活动,用户未报名
+
+groupactivityrank 方法 ，集团 活动  中 各种   成绩 排名 group/groupActivityRank.jsp
+
+groupacttit 集团标题信息  group/groupActivityTitle.jsp
+
+groupcomment 集团活动 留言 group/groupComment.jsp
+
+grouplogin 已登录用户进入集团登录首页 group/group-login.jsp 
+
+groupsignupstarttit 集团活动咨询 group/groupSignUpStartTit.jsp
+
+groupTotalDistanceRank 集团 所有人 里程排名 group/groupTotalDistanceRank.jsp
+
+groupYesterdaySetpsRank 集团昨日步数排名  group/groupYestodaySetpsRank。jsp
+
+listcommtojson  活动留言
+
+//==========================================================================================		  
+	EnterpriseUserMapper.xml 全部
+		
+		//--------没有用的方法 -----------
+		<select id="existEnterpriseUser" resultMap="BaseResultMap" parameterType="java.lang.Long">
+			select * from T_ENTERPRISE_USER where USERID = #{userid,jdbcType=DECIMAL}
+		</select>
+		
+		
+		1. admin/employee/employeeList.jsp 批量导入 2. 
+		<delete id="deleteEnterpriseUserByUserId" parameterType="java.lang.Long">
+			delete from T_ENTERPRISE_USER where USERID = #{userid, jdbcType=DECIMAL}
+		</delete>

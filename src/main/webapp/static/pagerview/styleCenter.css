@@ -1,0 +1,14 @@
+.PagerView{
+	text-align: center;
+}
+.PagerView span{
+	margin: 0 0 0 5px;
+}
+.PagerView span.on{
+	background: #ddd;
+}
+.PagerView a{
+	text-decoration: none;
+}
+.PagerView a span{
+}

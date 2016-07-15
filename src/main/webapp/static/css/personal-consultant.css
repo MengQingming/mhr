@@ -1,0 +1,171 @@
+.consultant_bj{
+	width:77px;
+	height:95px;
+	background:url(../images/guwen-bj.png) no-repeat;
+	float:left;
+	margin: 30px 31px;
+	margin-left:0px; 
+	text-align: center;
+	padding:5px 0 0 0;
+	}
+.consultant_bj img{
+	width:66px;
+	height:66px;
+	overflow:hidden;
+	}
+.consultant_bj:visited{background:url(../images/guwen-bj2.png) no-repeat; color:#FFF;}
+.consultant_bj:hover{background:url(../images/guwen-bj2.png) no-repeat; color:#FFF;}
+.consultant_bj:active{background:url(../images/guwen-bj2.png) no-repeat; color:#FFF;}
+.consultant_bjFont{background:url(../images/guwen-bj2.png) no-repeat; color:#FFF;}
+.personal_conk{
+	clear:both;
+	border:1px solid #d8d8d8;
+	padding:20px 5px;
+	border-radius:5px;
+	overflow:hidden;zoom:1;
+	text-align:left;
+	}
+.personal_dengji{
+	height:122px;
+	width:300px;
+	float:left;
+	text-align: left;
+	font-size:14px;
+	color:#575757;
+	line-height:35px;
+	}
+.personal_dengji p{
+	margin:0px;
+	padding:0px;
+	text-align:left;;
+	}
+.personal_lingyu{
+	height:122px;
+	width:320px;
+	float:right;
+	}
+.personal_dengji .touxiang{
+	margin-right:10px;
+	float:left;
+	width:66px;
+	height:66px;
+	overflow:hidden;
+	}
+.personal_lingyu .shanchang{
+	width:315px;
+	text-align:left;
+	background:#f5f5f5;
+	line-height:22px;
+	padding:0 0 0 0px;
+	color:#000000;
+	font-size:14px;
+	}
+.shanchang1{
+	border-bottom:1px solid #d5d5d5;
+	min-height:50px;
+	text-align:left;
+	color:#575757;
+	margin-bottom:10px;
+	}
+.personal_lingyu .button{
+	height:27px;
+	width:123px;
+	border:1px solid #70b800;
+	border-radius:3px;
+	float:left;
+	background:url(../images/button_lv.png) repeat-x;
+	margin:0 20px;
+	}
+.personal_lingyu .button1{
+	height:27px;
+	width:40px;
+	border:1px solid #e4e4e4;
+	border-radius:3px;
+	background:url(../images/quxiao.png) no-repeat #dfdfdf;
+	}
+.personal_lingyu .fire{
+	height:41px;
+	width:64px;
+	float:right;
+	background:red;
+	position:relative;
+	top:-30px;
+	right:35px;
+	background:url(../images/fire.png) no-repeat;
+	}
+.gwtouxiang img{
+	margin-bottom:10px;
+	}
+.tuijiangw1 .shanchang{
+	width: 200px;
+	height: 70px;
+	margin: -5px 0 0 80px;
+	padding:0px;
+	line-height: 22px;
+	overflow: hidden;
+	}
+.gwtouxiang .apply{
+	width: 70px;
+	height: 25px;
+	border: 1px solid #ff9501;
+	border-radius:3px;
+	background:url(../images/button_orange.png) repeat-x ;
+	color: #FFF;
+	}
+/*以下是顾问简介页面的css*/
+.consultant_intro{
+	background:#f5f5f5;
+	border-radius:10px;
+	overflow:hidden;zoom:1;
+	padding:30px;
+	text-align:left;
+	}
+.consultant_intro .img{
+	height:120px;
+	width:120px;
+	overflow:hidden;
+	border:2px solid #d7d7d7;
+	float:left;
+	margin-right:10px;
+	}
+.consultant_intro ul{
+	float:right;
+	line-height:28px;
+	}
+.consultant_intro ul .tit{
+	font-size:14px;
+	}
+.tit_content{
+	color:#575757;
+	}
+.intro_tit{
+	height:28px;
+	background:#d7d7d7;
+	clear:both;
+	margin-top:20px;
+	float:left;
+	width:610px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#2e2e2e;
+	line-height:28px;
+	text-align:left;
+	margin-bottom:10px;
+	}
+.intro_tit .green{
+	height:28px;
+	float:left;
+	width:10px;
+	background:#a5bd33;
+	margin-right:10px;
+	}
+.intro_content{
+	clear:both;
+	color:#4d4d4d;
+	line-height:25px;
+	margin-top:10px;
+	width:610px;
+	height:250px;
+	overflow:hidden;
+	}
+/*以上是顾问简介页面的css*/

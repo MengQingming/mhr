@@ -1,0 +1,27 @@
+.header {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 45px; PADDING-RIGHT: 45px
+}
+.yidong {
+	MARGIN-BOTTOM: 4px
+}
+.header IMG {
+	FLOAT: left; MARGIN: 0px 5px
+}
+.header UL {
+	CLEAR: both; MARGIN-TOP: 10px
+}
+.header UL LI {
+	FONT-SIZE: 18px; FONT-FAMILY: "Î¢ÈíÑÅºÚ"; FLOAT: right; MARGIN-LEFT: 10px
+}
+.main {
+	min-height:700px; height:auto !important; height:700px; OVERFLOW: hidden;ZOOM: 1; PADDING-TOP: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px;
+}
+.left {
+	overflow:hidden;zoom:1;FLOAT: left; WIDTH: 13%
+}
+.right {
+	overflow:hidden;zoom:1; FLOAT: left; MARGIN-LEFT: 20px; WIDTH: 82%
+}
+.footer {
+	HEIGHT: 40px; BACKGROUND: #616161; COLOR: #cdcdcd; PADDING-BOTTOM: 0px; TEXT-ALIGN: right; PADDING-TOP: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 20px
+}

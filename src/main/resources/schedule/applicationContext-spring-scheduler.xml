@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/task 
+	http://www.springframework.org/schema/task/spring-task-3.0.xsd"
+	default-lazy-init="true">
+
+	<description>使用Spring的 quartz的定时任务配置</description>
+	 
+	<!-- 向环信群组每日发送排名信息 -->
+	<bean id="SpringChatroomJob" class="com.boe.personnel.schedule.RankShareChatroomTaskScanner"></bean>
+	
+	<!-- 调度业务  sendEnterRank -->
+	<bean id="jobDetail_1" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="SpringChatroomJob"/>
+		<property name="targetMethod" value="sendEnterRank"/>
+	</bean>
+	<!-- 增加调度触发器 -->
+	<bean id="cronTrigger_1" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="jobDetail_1" />
+		<!-- <property name="cronExpression" value="0/50 * * * * ?" /> 0 0 7 * * ?  0/1 * * * * ?    0 0 8 * * ? -->
+		<property name="cronExpression" value="0 0 8 * * ?"></property>	<!-- 定时每天上午八点 -->
+	</bean>
+	
+	<!-- 设置调度 -->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+	 	<!-- 启动时延期10秒开始任务 -->
+		<property name="startupDelay" value="10" />
+	 	<property name="triggers">
+	 		<list>  
+	 			<ref bean="cronTrigger_1"/>
+	 		</list>
+	 	</property>
+	</bean>
+	
+</beans>

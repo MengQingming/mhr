@@ -1,0 +1,363 @@
+﻿.act-banner{
+	height:330px;
+	width:943px;
+	background:#000;
+	position:relative;
+	}
+.banner_transparent{
+	height:80px;
+	width:540px;
+	margin-top:120px;
+	float:right;
+	background:#000;
+	opacity:0.4;
+	filter:Alpha(Opacity='40'); /*实现了半透明效果*/
+	}
+.act-banner span{
+	font-weight:700;
+	font-size:29px;
+	color:#FFF;
+	position:absolute;
+	left:430px;
+	top:140px;
+	height:50px;
+	width:540px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	line-height:50px;
+
+	}
+/*活动css开始*/
+
+.act_instructions{
+	padding:20px 15px;
+	overflow:hidden;zoom:1;
+	}
+.act_left{
+	width:535px;
+	height:360px;
+	position:relative;
+	text-align:center;
+	float:left;
+	}
+.act_left img{
+	width:535px;
+	height:360px;
+	}
+	
+.act_left .black{
+	background:#000;
+	height:100px;
+	width:535px;
+	opacity:0.4;
+	filter:Alpha(Opacity='40'); /*实现了半透明效果*/
+	position:absolute;
+	left:0px;
+	top:140px;
+	}
+.act_left p{
+	color:#FFF;
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+	position:absolute;
+	left:0px;
+	top:150px;
+	font-size:18px;
+	width:535px;
+	line-height:45px;
+	}
+.act_left p span{
+	font-size:36px;
+	}
+.act_right{
+	height:360px;
+	float:right;
+	width:363px;
+	}
+.act_right  .act_right_content{
+	color:#575757;
+	line-height:20px;
+	margin:0;
+	height:240px;
+	width:363px;
+	overflow:hidden;
+	}
+.act_right .button1{
+	margin:20px 10px;
+	height:40px;
+	width:155px;
+	border-radius:5px;
+	font-family:"微软雅黑";
+	font-size:20px;
+	background-image:url(../images/button1.png);
+	background-repeat:repeat;
+	border:1px solid #00a0ea;
+	color:#FFF;
+	cursor:pointer;
+	}
+.act_right .button2{
+	margin:20px 10px;
+	height:40px;
+	width:155px;
+	border-radius:5px;
+	font-family:"微软雅黑";
+	font-size:20px;
+	background:#ffb300;
+	border:1px solid #e09900;
+	color:#FFF;
+	cursor:pointer;
+	}
+.NO{
+	font-family:"微软雅黑";
+	font-size:14px;
+	width:363px;
+	height:20px;
+	margin:0 50px;
+	text-align:center;
+	}
+.NO .red{
+	color:red;
+	}
+/*活动css结束*/
+/*热门活动css开始*/
+.turnpage{
+	width:30px;
+	height:205px;
+	border:1px solid #ccc;
+	background:#eee;
+	text-align:center;
+	line-height:205px;
+	color:#ffba00;
+	font-size:20px;
+	font-weight:700;
+	float:left;
+	margin-top:150px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	}
+.turnpage:HOVER{
+	background: #eaeaea;
+}
+.photos{
+	float:left;
+	padding:0 5px;
+	width:839px;
+	}
+.actPhotos{
+	height: 500px; 
+	position: relative; 
+	left: 0px; 	
+}
+.photos1{
+	width:839px;
+	margin-bottom:30px;
+	height:250px;
+	}
+.photok{
+	height:230px;
+	border:1px solid #e5e5e5;
+	float:left;
+	padding:5px;
+	width:193px;
+	margin: 0 6px 10px 0;
+	overflow:hidden;
+	float: left;
+	}
+.photok p .photok_tit {
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#373737;
+	line-height:20px;
+	width:200px;
+	display:block;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	}
+
+.photok span{
+	font-family:"微软雅黑";
+	font-size:11px;
+	color:#999999;
+	}
+.photok  .ing{
+	color:#ff0000;
+	}
+.photok  .ing2{
+	float:right;
+	color:#ff0000;
+	margin-right:10px;
+	}
+.photok .apply{
+	color:#ffb902;
+	}
+.photok .apply2{
+	float:right;
+	color:#ffb902;
+	margin-right:10px;
+	}
+.photok  .end2{
+	float:right;
+	margin-right:10px;
+	}
+.photok img{
+	width:193px;
+	height:128px;
+	}
+	
+/*热门活动css结束*/
+.rank{
+	padding:0 30px 0 60px;
+	font-family:"微软雅黑";
+	overflow:hidden;zoom:1;
+	}
+.rank1{
+	margin:0 5px;
+	width: 160px;
+ 	float:left;
+	}
+.rank2{
+	margin:0 5px;
+	width: 160px;
+ 	float:left;
+	}
+.rank3{
+	margin:0 5px;
+	width: 160px;
+ 	float:left;
+	}
+.rankRed{
+	padding:25px 0 0 0;
+	width:150px;
+	overflow:hidden;zoom:1;
+	}
+.rankRed .avatarBox{
+	width:45px;
+	height:45px;
+	border:2px solid #dcdcdc;
+	float:left;
+	margin-right:5px;
+	overflow:hidden;
+	}
+.rankRed span{
+	line-height:16px;
+	color:#575757;
+	}
+
+.rankGray{
+	padding:25px 0 0 0;
+	width:150px;
+	overflow:hidden;zoom:1;
+	}
+.rankGray .avatarBox{
+	width:45px;
+	height:45px;
+	border:2px solid #c20e0e;
+	float:left;
+	margin-right:5px;
+	overflow:hidden;
+	}
+.rankGray span{
+	line-height:16px;
+	color:#c20e0e;
+	position:relative;
+	}
+.rank13{
+	padding:25px 0 0 0;
+	width:150px;
+	overflow:hidden;zoom:1;
+	}
+.rank13 img{
+	width:45px;
+	height:45px;
+	border:2px solid #98d000;
+	float:left;
+	margin-right:5px;
+	overflow:hidden;
+	}
+.rank13 span{
+	line-height:16px;
+	color:#98d000;
+	}
+.shuxian{
+	border-left:1px solid #e1e1e1;
+	height:110px;
+	width:10px;
+	float:left;
+	margin-top:25px;
+	}
+/*以下是活动排名的css*/
+.activities_rank{
+	clear:both;
+	padding:15px;
+	overflow:hidden;zoom:1;
+	}
+.activities_rank .img{
+	width:66px;
+	height:66px;
+	border-radius:5px;
+	float:left;
+	margin-right:20px;
+	overflow:hidden;
+	}
+.activities_rank .img img{
+	width:66px;
+	height:66px;
+	}
+	
+.rank_no{
+	font-size:20px;
+	line-height:66px;
+	font-family:"微软雅黑";
+	float:left;
+	padding:0 15px;
+	width:20px;
+	}
+.nickname{
+	font-size:14px;
+	color:#ffa200;
+	font-family:"微软雅黑";
+	}
+.ranking{
+	background:#8eac00;
+	height:30px;
+	border-radius:5px;
+	padding-right:20px;
+	font:18px "微软雅黑";
+	color:#FFF;
+	margin-left:125px;
+	margin-top:15px;
+	text-align:right;
+	width:600px;
+	line-height:30px;
+	}
+.ranking2{
+	background:#ffa200;
+	height:30px;
+	border-radius:5px;
+	padding-right:20px;
+	font:18px "微软雅黑";
+	color:#FFF;
+	margin-left:125px;
+	margin-top:15px;
+	text-align:right;
+	width:600px;
+	line-height:30px;
+	}
+.ranking2 img{
+	margin-right:-45px;
+	float:right;
+	}
+.ranking img{
+	margin-right:-45px;
+	float:right;
+	}
+.min_rank{
+	font:18px "微软雅黑";
+	height:30px;
+	margin-top:15px;
+	}
+/*以上是活动排名的css*/

@@ -1,0 +1,170 @@
+.footerBg{
+	width: 100%;
+	overflow: hidden;
+	background:#42424a;
+	padding-bottom: 50px;
+}
+.footerCount{
+	width: 1200px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.footerLeft{
+	width: 210px;
+	overflow: hidden;
+}
+.footerLeft a{
+	display: block;
+	width: 202px;
+	height:89px;
+	overflow: hidden;
+	margin-top: 95px;
+}
+.footerLeft a img{
+	width: 100%;
+}
+.footerRight{
+	width: 957px;
+	overflow: hidden;
+}
+.rightTitle{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 18px;
+	border-bottom: 1px dashed #000;
+}
+.rightTitle p{
+	font-size: 25px;
+	width: 335px;
+	color: #fff;
+	overflow: hidden;
+	margin-top: 36px;
+	margin-left: 15px;
+}
+.phoneNumber{
+	width: 700px;
+	overflow: hidden;
+	margin-left: 15px;
+}
+.fcuens{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.fcuens p{
+	font-size: 25px;
+	color: #999999;
+}
+.phone{
+	width: 26px;
+	height: 23px;
+	display: block;
+	float: left;
+	margin: 1px 15px 0px 0px;
+	background:url(../../images/index/phone.png) no-repeat;
+
+}
+.timesr{
+	display: block;
+	font-size: 14px;
+	color: #999999;
+	margin: 5px 0 0 56px;
+}
+.fcuensL{
+	width: 356px;
+	overflow: hidden;
+}
+.fcuensR{
+	width: 340px;
+	overflow: hidden;
+	font-size: 22px;
+	color: #999999;
+}
+.iphone{
+	width: 16px;
+	height: 25px;
+	margin-top: -1px;
+	display: block;
+	margin-right: 15px;
+	background:url(../../images/index/iphone.png) no-repeat;
+}
+.iconQ{
+	width: 360px;
+	color: #999999;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.iconQ span{
+	display: block;
+	width: 26px;
+	height: 26px;
+	float: left;
+	overflow: hidden;
+	margin: -1px 15px 0 0;
+	background:url(../../images/index/iconQQ.png) no-repeat;
+}
+.emails{
+	width: 350px;
+	color: #999999;
+	font-size: 20px;
+	overflow: hidden;
+	margin-top: 25px;
+}
+.emails span{
+	display: block;
+	float: left;
+	width: 21px;
+	height: 17px;
+	margin: 3px 15px 0 0;
+	background:url(../../images/index/email.png) no-repeat;
+}
+.weima{
+	width: 220px;
+	overflow: hidden;
+	margin-top: 27px;
+}
+.weima a{
+	display: block;
+	width: 128px;
+	height: 128px;
+	margin: 0px auto;
+}
+.weima a img{
+	width: 100%;
+}
+.weima p{
+	font-size: 14px;
+	color: #999999;
+	text-align: center;
+	margin-top: 20px;
+	width: 220px;
+	overflow: hidden;
+	height: 14px;
+}
+
+/*start底部*/
+.bottomBg{
+	width:100%;
+	background:#111115;
+	height: 40px;
+	overflow: hidden;
+}
+.bottomCount{
+	width: 1200px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.bottomCount p{
+	font-size: 12px;
+	color: #42424a;
+	line-height: 40px;
+	text-align: center;
+}
+.bottomCount  p a{
+	font-size: 12px;
+	color: #42424a;
+}
+.bottomCount  p span{
+	margin-left: 25px;
+}
+/*end底部*/

@@ -1,0 +1,50 @@
+.download_bj{
+	height:1918px;
+	width:1003px;
+	background:url(../images/download.jpg);
+	}
+.download_bj img{
+	border:0px;
+	}
+.download_left{
+	float:left;
+	padding:135px 0 0 160px;
+	}
+.download_Info{
+	font-family:"微软雅黑";
+	float:left;
+	margin:50px 0 0 0;
+	}
+.download_Info li{
+	padding:10px 0 0 0px;
+	}
+.download_Info li a{color:#65b40b;}
+.download_Info_tit{
+	color:#65b40b;
+	font-size:30px;
+	margin:0 0 20px 0;
+	font-family:"微软雅黑";
+	padding:0px;
+	margin:0px;
+	}
+.download_code{
+	float:left;
+	padding:60px 0 0 20px;
+	font-family:"微软雅黑";
+	text-align:center;
+	}
+.download_right{
+	float:right;
+	padding:80px 145px 0 0;
+	}
+
+.downloadnow{	
+	height:65px;
+	width:203px;
+	border:0px;
+	margin:40px 0 0 0;
+	}
+.down_apk{
+	padding-top: 15px;
+	
+}

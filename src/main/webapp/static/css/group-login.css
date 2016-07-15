@@ -1,0 +1,150 @@
+.activity_news{
+	padding:30px 15px 15px 15px;
+	overflow:hidden;zoom:1;
+	font-family:"微软雅黑";
+	}
+.activity_newsk1{
+	float:left;
+	width:340px;
+	height:275px;
+	border-right:2px dashed #b6b6b6;
+	padding-right:20px;
+	overflow:hidden;zoom:1;
+	}
+.activity_newsk2{
+	float:right;
+	width:530px;
+	height:265px;
+	background:#f8f8f8;
+	}
+.news_guwen{
+	height:120px;
+	line-height:30px;
+	}
+.news_guwen .img{
+	float:left;
+	margin-right:10px;
+	width:120px;
+	height:120px;
+	}
+.news_guwenxq{
+	float:left;
+	}
+.answer{
+	height:107px;
+	margin-top:20px;
+	background:green;
+	clear:both;
+	border-radius:5px;
+	background:#f3f3f3;
+	padding:10px 10px;
+	color:#575757;
+	line-height:25px;
+	}
+.activity_news a:link{color:#575757;text-decoration:underline;}
+.activity_news a:visited{color:#575757;text-decoration:underline;}
+.activity_news a:hover{color:#575757;text-decoration:underline;}
+.activity_news a:active{color:#575757;text-decoration:underline;}
+
+.news_nav{
+	height:30px;
+	background:#ececec;
+	line-height:30px;
+	padding:0 10px;
+	}
+.news_nav li{
+	float:left;
+	padding:0 10px;
+	color:#838383;
+	font-size:14px;
+	}
+.news_nav li:hover{color:#000000; background:#cdcdcd;}
+.news_nav li:visited{color:#000000; background:#cdcdcd;}
+
+.activity_newsk2 p{
+	margin:0px;
+	padding:0px;
+	margin:10px 20px 0 20px;
+	height:130px;
+	border-bottom:1px dashed #cdcdcd;
+	overflow:hidden;
+	color:#575757;
+	line-height:22px;
+	}
+.activity_newsk2 .tit{
+	color:#3a3a3a;
+	font-size:14px;
+	margin-right:10px;
+	}
+.activity_newsk2 .deta{
+	color:#c1c1c1;
+	}
+.news_lianjie{
+	width:220px;
+	margin:10px 0px 0px 20px;
+	line-height:25px;
+	float:left;
+	}
+.news_lianjie li{
+	list-style-type:square;
+	list-style-position:inside;
+	}
+.paiming li{
+	float:left;
+	line-height:30px;
+	width:80px;
+	height:30px;
+	color:#616161;
+	font-family:"微软雅黑";
+	text-align:center;
+	}
+.paiming li:link{background:#424242;color:#FFF;}
+.paiming li:visited{background:#424242; color:#FFF;}
+.paiming li:hover{background:#424242; color:#FFF;}
+.paiming li:active{background:#424242;color:#FFF;}
+
+.paiming li a:link{color:#616161;}
+.paiming li a:visited{ color:#616161;}
+.paiming li a:hover{ color:#FFF;}
+.paiming li a:active{color:#FFF;}
+
+.activities_huigu{
+	height:25px;
+	width:75px;
+	background:url(../images/consultant-k.png) no-repeat;
+	margin-left:30px;
+	color:#FFF;
+	line-height:25px;
+	text-align:center;
+	}
+.huigu_left{
+	float:left;
+	}
+.huigu_right{
+	width:260px;
+	float:right;
+	padding:0 10px 0 0;
+	}
+.pinglun_tit{
+	height:20px;
+	background:#ececec;
+	}
+.group_pinglun{
+	background:#ffffbf;
+	margin-top:20px;
+	border:1px solid #e9e98b;
+	border-radius:5px;
+	padding:10px;
+	}
+.pinglun1{
+	border-bottom:1px dashed #e9e98b;
+	height:44px;
+	color:#959595;
+	font-family:"微软雅黑";
+	margin-bottom:10px;
+	white-space:nowrap;
+	color:#717171;
+	}
+.pinglun1 a:link{color:#717171; text-decoration:underline;}
+.pinglun1 a:hover{color:#373737; text-decoration:underline;}
+.news_nav a:visited{color:#373737; text-decoration:underline;}

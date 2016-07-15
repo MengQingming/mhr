@@ -1,0 +1,64 @@
+html, body, div, span,h1, h2, h3, h4, h5, h6, p,
+a, em, img, q, s, small, strong,b, u, i,dl, dt, 
+dd, ol, ul, li,form, label,table, caption, tbody,
+tfoot, thead, tr, th, td,article,footer, header, 
+menu, nav,section, time, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+a{ 
+	display: inline-block;
+	text-decoration: none;
+}
+body {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 1;
+	color: #111111;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear{
+	clear: both;
+}
+.border8{
+	border-top: 8px solid #f1f1f1;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.countents{
+	width:1200px;
+	height: auto;
+	margin: 0px auto;
+}
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:"";
+	overflow:hidden;
+	height:0;
+}
+.clearfloat{zoom:1;}

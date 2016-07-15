@@ -1,0 +1,79 @@
+.register-bg{
+	float:left;
+	margin-top:30px;
+	height:450px;
+	}
+.tit{
+	font-family:"微软雅黑";
+	font-size:24px;
+	}
+.register_form{
+	float:right;
+	width:580px;
+	font-family:"微软雅黑";
+	margin-bottom:80px;
+	}
+.register_form ul li label{
+	width:100px;
+	float:left;
+	text-align:right;
+	font-family:"微软雅黑";
+	font-size:14px;
+	line-height:30px;
+	}
+.register_form ul li{
+	margin:10px 0;
+	}
+
+.register_form  input{
+	width:180px;
+	height:30px;
+	border-radius:5px;
+	border:1px #d6d6d6 solid;
+	padding-left:10px;
+	font-size:14px;
+	line-height:30px;
+}
+.register_form ul li{
+	margin:15px;
+	}
+.register_form .warn{
+	color:red;
+	}
+.register_form  .send{
+	background:#065fad;
+	width:70px;
+	color:#FFF;
+	font-size:14px;
+	font-family:"微软雅黑";
+	}
+.register_form .register{
+	height:35px;
+	width:95px;
+	background:#709e18;
+	color:#FFF;
+	margin-left:100px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	}
+.register_form .checkbox{
+	width:15px;
+	height:15px;
+	margin-left:100px;
+	}
+.register_form .register_disabled{
+	height:35px;
+	width:95px;
+	background:#9e9e9e;
+	color:#FFF;
+	margin-left:100px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	}
+.ask{
+	font-size:14px;
+	}
+.register_form a:link{color:#709e18;}
+.register_form a:visited{color:#709e18;}
+.register_form a:hover{color:#709e18;}
+.register_form a:active{color:#709e18;}

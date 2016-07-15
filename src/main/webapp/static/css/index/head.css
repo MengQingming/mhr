@@ -1,0 +1,205 @@
+/*start顶部*/
+.topers{
+	width: 100%;
+	background: none;
+	overflow: hidden;
+}
+.contact{
+	width: auto;
+	overflow: hidden;
+	padding:15px 0px;
+}
+.contact a{
+	font-size: 12px;
+	color: #fff;
+}
+.weconer{
+	margin-right: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #fff;
+}
+/*end顶部*/
+/*start导航*/
+.wrapNav{
+	background: none;
+	position: relative;
+	
+	padding-bottom:30px;
+}
+.logos{
+	width: 202px;
+	height: 89px;
+	display: block;
+	overflow: hidden;
+}
+.logos img{
+	width: 100%;
+}
+.navFont{
+	overflow: hidden;
+	width: auto;
+	margin-left: 170px;
+	margin-top: 40px;
+}
+.navFont li{
+	float: left;
+	margin-left: 5px;
+}
+.navFont li a{
+	font-size: 14px;
+	color: #fff;
+	padding: 9px 17px;
+	border-radius: 15px;
+}
+.navFont li a:hover{	
+	background: #5eb976;
+}
+.navFont li .orcn{
+	background: #5eb976;
+	color: #fff;
+}
+.entry{
+	height: auto;
+	overflow: hidden;
+	margin-top: 35px;
+}
+.entryBtn{
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	width: 44px;
+	height: 44px;
+	border-radius: 22px;
+	background:#5fd6d2;
+	color: #fff;
+	line-height: 44px;
+	font-size: 14px
+}
+.registerBtn{
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	width: 44px;
+	height: 44px;
+	border-radius: 22px;
+	background:#5eb976;
+	color: #fff;
+	line-height: 44px;
+	margin-right: 20px;
+	font-size: 14px;
+}
+/*end导航*/
+/*start用户弹框*/
+.serive{
+	width: 120px;
+	height: 45px;
+	position: absolute;
+	right: -135px;
+	top: 5px;
+}
+.xcaent a{
+	display:block;
+	width: 45px;
+	height: 45px;
+	overflow: hidden; 
+}
+.xcaent a img{
+	width: 100%;
+}
+.seriveR{
+	position: relative;
+}
+.seriveR p{
+	font-size: 12px;
+	color: #666666;
+	margin-top: 5px;
+}
+.seriveR a{
+	font-size: 14px;
+	display: block;
+	color: #333333;
+	margin-top: 7px;
+
+}
+.cverst{
+	display: block;
+	width: 9px;
+	height: 5px;
+	background: url(../../images/index/wcan.png) no-repeat;
+	float: right;
+	margin-top: 5px;
+	margin-left: 3px;
+
+}
+.popups{
+	background: #fff;
+	border-radius: 4px;
+	position: absolute;
+	border: 1px solid #efefef;
+	box-shadow:0px 0px 5px #666;
+	padding-bottom: 20px;
+	bottom: -167px;
+}
+.popups li a{
+	display: block;
+	text-align: right;
+	overflow: hidden;
+	width: 74px;
+	padding: 0px 10px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #666;
+}
+.cnt1{
+	display: block;
+	width: 12px;
+	height: 13px;
+	background: url(../../images/index/cnt1.png) no-repeat;
+}
+.cnt2{
+	margin-left: -1px;
+	display: block;
+	width: 13px;
+	height: 11px;
+	background: url(../../images/index/cnt2.png) no-repeat;
+}
+.cnt3{
+	margin-left: 1px;
+	display: block;
+	width: 11px;
+	height: 13px;
+	background: url(../../images/index/cnt3.png) no-repeat;
+}
+.cnt4{
+	margin-left: -3px
+	display: block;
+	width: 14px;
+	height: 15px;
+	background: url(../../images/index/cnt4.png) no-repeat;
+}
+.hoveA:hover{
+	color: #5eb976;
+}
+.hoveA:hover span{
+	background: url(../../images/index/cnt1s.png) no-repeat;
+}
+.hoveB:hover{
+	color: #5eb976;
+}
+.hoveB:hover span{
+	background: url(../../images/index/cnt3s.png) no-repeat;
+}
+.hoveC:hover{
+	color: #5eb976;
+}
+.hoveC:hover span{
+	background: url(../../images/index/cnt4s.png) no-repeat;
+}
+.hoveS{
+	color: #5eb976!important;
+}
+.hoveS span{
+	background: url(../../images/index/cnt2s.png) no-repeat!important;
+}
+
+/*end用户弹框*/

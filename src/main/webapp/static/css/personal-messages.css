@@ -1,0 +1,271 @@
+/*我参加的活动也在这个页面*/
+
+.personl-message{
+	clear:both;
+	overflow:hidden;zoom:1;
+	margin-top:20px;
+	font-family:"微软雅黑";
+	color:#2f2f2f;
+	}
+.personl-message .img{
+	width:66px;
+	height:66px;
+	float:left;
+	border:2px solid #dadada;
+	border-radius:2px;
+	margin-right:20px;
+	}
+.personl-message ul{
+	text-align:left;
+	border-bottom:1px #2f2f2f  dashed;
+	float:left;
+	width:500px;
+	}
+.personl-message ul li{
+	margin-bottom:15px;
+	}
+.nickname{
+	font-size:14px;
+	color:#ffa200;
+	}
+.personl-message .time{
+	color:#c5c5c5;
+	}
+.personl-message .operate{
+	float:right;
+	color:#0042a5;
+	}
+.personl-message .operate a:link{color:#8eac00; background:#FFF;}
+.personl-message .operate a:visited{color:#8eac00;background:#FFF;}
+.personl-message .operate a:hover{color:#8eac00;background:#FFF;}
+.personl-message .operate a:active{color:#8eac00;background:#FFF;}
+.send_messages{
+	line-height:25px;
+	background:#e4e4e4;
+	margin-top:40px;
+	width:640px;
+	color:#8eac00;
+	font-size:14px;
+	font-family:"微软雅黑";
+	text-align:left;
+	float:left;
+	}
+.send_messages .green{
+	width:15px;
+	height:25px;
+	background:#8eac00;
+	float:left;
+	margin-right:10px;
+	}
+.send{
+	float:left;
+	text-align:left;
+	margin-top:30px;
+	}
+.send li{
+	margin:10px 10px;
+	}
+.send label{
+	width:100px;
+	float:left;
+	text-align:right;
+	line-height:25px;
+	}
+.send input{
+	height:25px;
+	border-radius:5px;
+	border:1px solid #c6c6c6;
+	width:200px;
+	}
+.send textarea{
+	border-radius:5px;
+	border:1px solid #c6c6c6;
+	height:150px;
+	width:420px;
+	}
+.send .button{
+	float:right;
+	margin-right:150px;
+	height:27px;
+	width:120px;
+	border-radius:5px;
+	border:1px solid #70b800;
+	background:url(../images/button_lv.png) repeat-x;
+	}
+.send  .warn{
+	color:red;
+	}
+/*以下是删除弹出框的css*/
+.delete{
+	width:360px;
+	height:175px;
+	border:1px #e5e5e5 solid;
+	border-radius:5px;
+	position:absolute;
+	top:1000px; right:700px;
+	background:#FFF;
+	text-align:center;
+	line-height:40px;
+	padding-top:50px;
+	}
+.delete_button{
+	border:1px solid #e19c08;
+	border-radius:5px;
+	background-color:#ffb300;
+	color:#FFF;
+	font-size:16px;
+	font-family:"微软雅黑";
+	width:90px;
+	height:30px;
+	margin-top:20px;
+	cursor:pointer;
+	}
+.delete_warn{
+	font-size:24px;
+	color:#ff0000;
+	margin-top:90px;
+	}
+/*以上是删除弹出框的css*/
+/*以下是针对单个人私信的css*/
+.message_single{
+	width:620px;
+	text-align:right;
+	padding:20px 20px 0px;	
+	font-family:"微软雅黑";
+	}
+.message_single .tit{
+	font-size:14px;
+	float:left;
+	}
+.message_single  a:link{color:#8eac00; background:#FFF;}
+.message_single  a:visited{color:#8eac00;background:#FFF;}
+.message_single  a:hover{color:#8eac00;background:#FFF;}
+.message_single  a:active{color:#8eac00;background:#FFF;}
+
+.message_singlek{
+	width:650px;
+	height:115px;
+	border-radius:5px;
+	border:1px solid #cacaca;
+	float:left;
+	}
+.single_button{
+	float:right;
+	margin:10px 50px;
+	height:27px;
+	width:120px;
+	border-radius:5px;
+	border:1px solid #70b800;
+	background:url(../images/button_lv.png) repeat-x;
+	color:#FFF;
+	font-size:14px;
+	font-family:"微软雅黑";
+	cursor:pointer;
+	}
+.message_left{
+	clear:both;
+	float:left;
+	text-align:left;
+	margin-top:10px;
+	}
+.message_left .img{
+	width:66px;
+	height:66px;
+	float:left;
+	border:2px solid #dadada;
+	border-radius:2px;
+	margin-right:20px;
+	}
+.message_left .message_content{
+	min-width:250px;
+	_width:250px;
+	max-width:550px;
+	_width:550px;
+	background:#dbdbdb;
+	margin-left:90px;
+	border-radius:5px;
+	margin-top:5px;
+	text-align:left;
+	padding:5px 10px;
+	line-height:20px;
+	}
+.message_left .message_content .time{
+	color:#c5c5c5;
+	}
+.message_left .message_content img{
+	float:left;
+	margin:0 0 0 -18px;
+	}
+.message_right{
+	clear:both;
+	float:right;
+	text-align:right;
+	margin-top:10px;
+	}
+.message_right .img{
+	width:66px;
+	height:66px;
+	float:right;
+	border:2px solid #dadada;
+	border-radius:2px;
+	margin-left:20px;
+	margin-right:10px;
+	}
+.message_right .message_content{
+	min-width:250px;
+	width:250px;
+	_width:250px;
+	max-width:550px;
+	_width:550px;
+	background: #aedd43;
+	margin-right:100px;
+	border-radius:5px;
+	margin-top:5px;
+	text-align:right;
+	padding:5px 10px;
+	line-height:20px;
+	}
+.message_right .message_content img{
+	float:right;
+	margin:0 -18px 0 0;
+	}
+.message_right .message_content .time{
+	color:#c5c5c5;
+	}
+/*以上是针对单个人私信的css*/
+
+
+/*以下是我参加的活动的css*/
+.per_act{
+	margin-top:30px;
+	text-align:left;
+	clear:both;
+	overflow:hidden;zoom:1;
+	height:210px;
+	}
+.per_act img{
+	height:180px;
+	width:267px;
+	border-radius:5px;
+	float:left;
+	margin-right:20px;
+	}
+.per_act ul{
+	float:left;
+	width:360px;
+	}
+.per_act ul li{
+	margin-top:5px;
+	}
+.activities_name {
+	color:#8eac00;
+	line-height:30px;
+	font-size:18px;
+	}
+.per_rank{
+	font-size:13px;
+	}
+.per_act .ing{
+	color:#ff0006;
+	}
+/*以上是我参加的活动的css*/
